@@ -1,6 +1,6 @@
 services:
   guest-bot:
-    build: .
+    image: ghcr.io/lookoupai/telegram_guest_bot:latest
     env_file:
       - .env
     volumes:

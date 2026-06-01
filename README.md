@@ -159,7 +159,8 @@ python scripts/runtime_check.py --telegram
 功能测试稳定后可使用 Docker。SQLite 数据会挂载到 `./data`：
 
 ```bash
-docker compose up -d --build
+docker compose pull
+docker compose up -d
 docker compose logs -f
 ```
 
@@ -170,5 +171,3 @@ docker compose logs -f
 - `ghcr.io/lookoupai/telegram_guest_bot:latest`
 - `ghcr.io/lookoupai/telegram_guest_bot:sha-<commit>`
 - 发布 tag 时还会生成对应版本 tag
-
-以后拿到正式镜像地址后，再把 `docker-compose.yml` 里的本地 `build:` 切换成远程 `image:` 即可。
