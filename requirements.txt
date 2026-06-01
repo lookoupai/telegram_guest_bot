@@ -1,0 +1,6 @@
+aiogram==3.28.2
+python-dotenv>=1.0.1,<2.0
+SQLAlchemy>=2.0.36,<3.0
+aiosqlite>=0.20.0,<1.0
+alembic>=1.14.0,<2.0
+cryptography>=44.0.0,<46.0
