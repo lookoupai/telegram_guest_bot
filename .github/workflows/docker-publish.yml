@@ -6,22 +6,6 @@ on:
       - main
     tags:
       - "v*"
-    paths:
-      - "Dockerfile"
-      - "requirements.txt"
-      - "main.py"
-      - "bot.py"
-      - "config.py"
-      - "database.py"
-      - "alembic.ini"
-      - "handlers/**"
-      - "models/**"
-      - "services/**"
-      - "utils/**"
-      - "migrations/**"
-      - "scripts/**"
-      - ".dockerignore"
-      - ".github/workflows/docker-publish.yml"
   workflow_dispatch:
 
 permissions:
